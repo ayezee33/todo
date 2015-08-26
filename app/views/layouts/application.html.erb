@@ -9,6 +9,14 @@
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
+
+  <nav>
+    <ul>
+      <li><%= link_to "New Todo List", new_todo_list_path %></li>
+      <li><a href="/">Home</a>
+    </ul>
+  </nav>
+
   <div class="container">
     <%= yield %>
   </div>
