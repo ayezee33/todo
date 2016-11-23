@@ -12,6 +12,8 @@
  *
  *= require_tree .
  *= require bootstrap.min
+ *= require material_icons
+ *= require sweetalert2
  *= require_self
  */
 
@@ -187,11 +189,12 @@ input[type="text"], textarea {
 	margin: .5em 2% 1em 0;
 	display: inline-block;
 	outline: none;
+  color: white;
 	background: rgba(250,250,250,.4);
 	border: none;
 	height: 40px;
 	border-radius: 4px;
-	padding: 1em 2em;
+	padding: 1em;
 }
 textarea {
 	height: 200px;
